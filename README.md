@@ -2,39 +2,17 @@
 
 Fibonacci Clock DIY ESP32 Project
 
-Firmware Version 1.0.1
+Verwendung & Voraussetzungen (Usage & Requirements)
+Damit die Flutter-App und die Web-Oberfläche einwandfrei mit der Fibonacci-Uhr funktionieren, sind folgende Voraussetzungen zu beachten:
 
+Firmware-Voraussetzung:
 
+Neue Uhren / Ersteinrichtung: Auf dem ESP32 muss die aktuelle Firmware FibonacciClock_SimLED_FINAL_V1_1_1.bin geflasht werden.
 
-Diese Version enthält zwei Firmware-Dateien:
+Bestehende Uhren: Es muss zwingend das aktuelle OTA-Update über die Web-Oberfläche eingespielt werden: OTA-Update_FibonacciClock_SimLED_FINAL_V1_1_1.bin. Nur mit dieser Version ist die vollständige API- und Sprachsynchronisation (DE, EN, TR, ES, AR) gewährleistet.
 
+Steuerung nach Betriebssystem:
 
+Android: Du kannst entweder die beigelegte APK-Datei (FibonacciClock-v1.0.apk) installieren (hierfür muss auf dem Smartphone einmalig „Installation aus unbekannten Quellen zulassen“ aktiviert werden) oder alternativ die Web-UI im Browser nutzen.
 
-• FibonacciClock\_SimLED\_FINAL\_FirmwareVersion\_1\_0\_1.bin
-
-&#x20; Diese Datei ist für eine Neuinstallation bzw. das vollständige Flashen der Uhr mit einem Flash-Programm vorgesehen.
-
-
-
-• OTA-Update\_FibonacciClock\_SimLED\_FINAL\_FirmwareVersion\_1\_0\_1.bin
-
-&#x20; Diese Datei dient ausschließlich für OTA-Updates (Web-UI) bereits installierter, kompatibler Firmware-Versionen.
-
-
-
-Hinweis:
-
-Für Erstinstallation oder Wiederherstellung immer die vollständige Firmware-Datei verwenden.
-
-Für Updates einer bereits laufenden Firmware kann die OTA-Datei über die Web-Oberfläche eingespielt werden.
-
-
-
-Änderungen:
-
-• Übersetzungsfehler behoben.
-
-• Neue Übergangseffekte hinzugefügt.
-
-• Diverse Optimierungen und Verbesserungen.
-
+iOS (iPhone/iPad): Da es für iOS keine APK gibt, erfolgt die Steuerung und Konfiguration hier ganz komfortabel direkt über die Web-UI der Uhr im Safari-Browser (über [http://fibonacci-clock.local](http://fibonacci-clock.local) oder die IP-Adresse).
